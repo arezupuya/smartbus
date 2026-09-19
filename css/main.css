@@ -1,0 +1,755 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FAFAFA;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	padding: 0px;
+	margin-top: 15px;
+	color:#3F3D3E;
+	width:96%;
+
+}
+
+div#main
+{
+border-collapse:collapse;
+border:1px #ddd;
+border-style:solid;
+padding: 0px;
+position:absolute;
+top:10px;
+width:88%;
+margin-right: 6%;
+margin-left:6%;
+margin-bottom:50px;
+background-color:#FFF;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+-khtml-border-radius: 15px;
+border-radius: 15px;
+
+
+}
+
+
+#header
+{
+	height:90px;
+}
+
+img 
+{
+border:0px;
+}
+
+img.products
+{
+border: 1px solid #ddd;
+margin-right: 5px;
+}
+
+#topmenu
+{
+	float:right;
+	position:absolute;
+	right:74px;
+	top: 10px;
+	width: 304px;
+	font-size:11px;
+}
+
+#flags
+{
+	float:right;
+	position:absolute;
+	right:24px;
+	top: 50px;
+	width: 600px;
+	font-size:11px;
+}
+
+
+#countries
+{
+	float:right;
+	position:absolute;
+	right:30px;
+	top: 29px;
+	width: 423px;
+	font-size:11px;
+}
+
+
+#topmenu1
+{
+	float:right;
+	position:absolute;
+	right:74px;
+	top: 10px;
+	width: 364px;
+	font-size:11px;
+}
+
+#mainmenu
+{
+	border-top:1px solid #ddd;
+	height: 30px;
+
+}
+
+
+
+#m_menu
+{
+	text-align:center;
+	width: 10%;
+	float:left;
+	padding: 0px;
+	height:20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 8px;
+}
+
+
+
+p.prodcontent
+{
+	line-height: 20px;
+}
+
+
+ul.list, li.list
+{
+	line-height: 20px;
+}
+
+ul#menu { width: 100%; height: 22px; list-style-type: none; margin: 0; padding: 0; color:#ACACAC;}
+ul#menu li { display: block; float: left; background-color: #FAFAFA; border-right: 1px solid #ddd; color:#ACACAC;}
+ul#menu li a { display: block; float: left;height: 22px; color:#ACACAC; text-decoration: none; display: block; float: left; padding: 8px 15px 0; }
+ul#menu li a:hover { display: block; float: left;color: #333; }
+ul#menu li a.current{ display: block; float: left; background: #FFF; padding: 8px 15px 0; color:#000;}
+ul#menu li a.product { display: block; float: left;height: 22px; color:#800000; text-decoration: none; display: block; font-weight:bold;float: left; padding: 8px 15px 0; background-color: #FFFF99;}
+ul#menu li a.currentprod { display: block; float: left;height: 22px; color:#800000; text-decoration: none; display: block; font-weight:bold;float: left; padding: 8px 15px 0; background-color: #FFFF99;}
+
+ 
+ul#check { list-style-image:url(/images/list_check.jpg); line-height:25px;  }
+ul#check li {  line-height:25px; }
+ul#check li a{ list-style-image:url(/images/list_check.jpg);  background-repeat:no-repeat; text-decoration: none; background-position:0px 5px; line-height:25px; color:#ACACAC;}
+ul#check li a:hover{ color: #333;}
+
+ul#hide { line-height:2px; color:#fff; }
+ul#hide li {  line-height:2px; color:#fff; }
+ul#hide li a{ 0px 5px; line-height:2px; color:#fff;}
+ul#hide li a:hover{ color: #fff;}
+
+
+div.gallery
+{
+	 float: left;
+  padding: 11px 5px 5px 0px;
+
+}
+
+
+div#left {
+	float: left;
+	width: 16%;
+	border-right:1px solid #ddd;
+height:600px;
+    padding: 0px;
+
+}
+div#header1 {
+    clear: both;
+	border-top:1px solid #ddd;
+
+}
+div#header2 {
+    clear: both;
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+
+}
+div#right {
+    float: right;
+    width: 16%;
+	border-left: 1px solid #ddd;	
+height:600px;
+    padding: 0px;
+
+}
+div#middle {
+
+    padding: 0px;
+	margin:0;
+	position:absolute;
+	left:18%;
+	right:18%;
+	
+
+}
+
+div#newproduct
+{
+	width: 96%;
+	margin-right: 2%;
+    margin-left:2%;
+	margin-bottom:2%;
+	
+}
+
+div.newproductleft
+{
+
+	float: left;
+	width: 49%;
+	border:1px solid #ddd;
+	height: 170px;
+    padding: 0px;
+	text-align:center;
+	background-color: #f6f6f6;
+	margin-bottom:1%;
+
+}
+
+div.newproductright
+{
+	float: right;
+	width: 49%;
+	border:1px solid #ddd;
+    height: 170px;
+    padding: 0px;
+	text-align:center;
+	background-color: #f6f6f6;
+	margin-bottom:1%;
+}
+
+
+
+    div.block_1 { float: left; 
+	width: 31%; 
+	margin-left: 2%; 	
+	border:1px solid #ddd;
+    height: 175px;
+    padding: 0px;
+	text-align:center;
+	background-color: #f6f6f6;
+	margin-bottom:1%;
+	}
+    
+	div.block_2 { float: left; width: 31%; margin-left: 1%;
+		border:1px solid #ddd;
+    height: 175px;
+    padding: 0px;
+	text-align:center;
+	background-color: #f6f6f6;
+	margin-bottom:1%;
+	}
+    
+	div.block_3 { float: left; width: 31%; margin-left: 1%;
+		border:1px solid #ddd;
+    height: 175px;
+    padding: 0px;
+	text-align:center;
+	background-color: #f6f6f6;
+	margin-bottom:1%;
+	}
+
+
+
+.cornernew {
+	display: block;
+	width: 65px;
+	height: 50px;
+	background-image:url(../images/new-badge.png);
+	position: absolute;
+	margin:0px;
+
+}
+
+.cornercoming {
+	display: block;
+	width: 65px;
+	height: 50px;
+	background-image:url(../images/coming-badge.png);
+	position: absolute;
+	margin:0px;
+
+}
+
+
+
+div.indexleft
+{
+
+	float: left;
+	width: 43%;
+	height: 280px;
+    padding: 0px;
+	margin-bottom:1%;
+
+}
+
+div.indexright
+{
+	float: right;
+	width: 53%;
+    height: 280px;
+    padding: 0px;
+	margin-bottom:1%;
+}
+
+
+
+div#footer {
+    clear: both;
+	padding: 8px;
+	border-top:1px solid #ddd;
+	text-align: center;
+	height: 25px;
+
+}
+
+
+p
+{
+	margin: 15px 15px 15px 15px;
+	line-height: 15px;
+	padding-left: 0px;
+	
+}
+
+
+p.leftcol
+{
+	margin: 15px 15px 0px 15px;
+	
+}
+h1, h2, h3
+{
+	margin: 15px 15px -10px 15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+	text-decoration:none;
+}
+a.prodtitle, a:hover.prodtitle
+{
+
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#666;
+	text-decoration:none;
+	line-height: 30px;
+	padding-top: 15px;
+}
+
+a.read
+{
+	color:#ACACAC; 
+	text-decoration: none;
+	line-height:20px;
+}
+
+a.current{ color:#000;
+text-decoration:none;
+}
+a{ 	color:#888888;
+text-decoration:none;
+}
+
+
+div#item
+{
+height:20px;
+
+
+}
+div#bottom
+{
+
+}
+span
+{
+ 
+margin-left: 5%;
+margin-right: 5%;
+
+
+}
+div#tab
+{
+	margin-left: 15px;
+
+}
+.container
+{
+    width: 100%;
+  margin: 0 auto;
+  overflow:hidden;
+
+}
+ 
+.leftColumn
+{
+  float: left;
+    width: 19%;
+	border-right:1px solid #ddd;
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
+	
+  }
+
+.centerColumn
+{
+	float: left;
+	border-right:1px solid #ddd;
+	width: 62%;
+	margin-bottom: -1000px;
+	padding-bottom: 1000px;
+	text-align: left;
+	
+}
+ 
+.rightColumn
+{
+  float: left;
+   width: 18%;
+   margin-bottom: -1000px;
+   padding-bottom: 1000px;
+ 
+ }
+ 
+ .centerrightColumn
+{
+	float: right;
+	width: 80%;
+	text-align: left;
+}
+ 
+ 
+ 
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+.resize {
+max-width: 350px;
+    height: auto;
+	
+}
+
+div#indexitems
+{
+	border-bottom: 1px dashed #ddd;
+	height: 320px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#indexitems1
+{
+	border-bottom: 1px dashed #ddd;
+	height: 150px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+	
+}
+
+div#proditems
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+
+div.proditems
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+
+div.proditems1
+{
+	border-bottom: 1px dashed #ddd;
+	height: 250px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+}
+
+div.index1
+{
+	border-bottom: 1px dashed #ddd;
+	height: 400px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+}
+
+div.index2
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+}
+
+div#proditems1
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#proditems2
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#proditems3
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+
+div#proditems4
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#proditems5
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#proditems6
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+
+
+div#proditems7
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+div#proditems8
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+div#proditems9
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#proditems10
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+div#proditems11
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#proditems12
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#proditems13
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#proditems14
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+div#proditems15
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#proditems16
+{
+	border-bottom: 1px dashed #ddd;
+	height: 200px;
+	margin: 15px 15px 15px 15px;
+	padding-top:5px;
+	line-height:20px;
+}
+
+
+div#line
+{
+	border-top: 1px dashed #ddd;
+	height: 250px;
+	margin-left:15px;
+	margin-right: 15px;
+	padding-top:5px;
+	line-height:20px;
+
+	
+}
+.productlist
+{
+	border-bottom:1px solid #ddd;
+	height: 5px;
+	padding:5px;
+	
+}
+ul#left_menu { height: 40px; list-style-type: none; margin-bottom: 15px; padding: 8px 15px 0;  color:#ACACAC; display:block; line-height: 30px; }
+ul#left_menu li { display:block; color:#ACACAC; }
+ul#left_menu li a { display:block; border-bottom: 1px solid #ddd; color:#ACACAC; text-decoration:none;  list-style-type: none; }
+ul#left_menu li a:hover { display:block; color: #333; }
+ul#left_menu li a.current{ display:block; color:#000;}
+ul#left_menu li { display:block; color:#ACACAC; }
+ul#left_menu li a.current1{ display:block; color:#fff;}
+
+
+div#hr
+{
+	border-top: 1px dashed #ddd;
+}

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth="635"
+	stageHeight="323"
+	stageBgColor="242424"
+	stageBgTransparency="100"
+	
+	imageWidth="635"
+	imageHeight="323"
+	imageTransitionType="slide"
+	imageResize="yes"
+	imageAlign="TL"
+	imageRandomDisplay="no"
+	imageAutoPlay="yes"
+	
+	thumbnails="yes"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="no"
+	thumbnailsMaskSize="0"
+	thumbnailsScrollSpeed="95"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="0"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="no"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="no"
+	
+>
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/dome.jpg"
+	thumbnailText="Dome" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Dome</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Exemplify culture and heritage enduring elements and indicates the community customs and ethnicity</font>]]></text></slide>
+
+<slide 
+	image="banner_asset/arcade.jpg"
+	thumbnailText="Arcade" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Arcade</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Convert the traditional area practically as a sanctuary for every worshippers and allows each,  settle in varying occasions yet provides both continuity and sense of tradition.</font>]]></text></slide>
+
+<slide 
+	image="banner_asset/abolution.jpg"
+	thumbnailText="Abolution" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Abolution</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Conveys tangible internal activities to the congregation even while performing purification before offering prayers.</font>]]></text></slide>
+
+
+<slide 
+	image="banner_asset/sabeel.jpg"
+	thumbnailText="Sabeel" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Sabeel</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Heightened water features, brings out tranquility, enlightenments, uplifts and enriches moral and  spiritual being. Inspires individuality. </font>]]></text></slide>
+
+
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/minaret1.jpg" 
+	thumbnailText="Minaret" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="10" 
+	textRightSpace="5" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Minaret</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Inimitable illumination states its identity at which signifies the spiritual and symbolic element of the Mosque.</font>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/main-hall1.jpg" 
+	thumbnailText="Prayer Hall" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Prayer Hall</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Provides comfort during prayers when temperature and lighting adjusts diverging to the amount of worshipers in the hall. Appreciate the cleanliness, emits fresh air quality which serves as a healthy environment. </font>]]></text></slide>
+	
+<!-- slide5  -->	
+<slide 
+	image="banner_asset/mihrab.jpg" 
+	thumbnailText="Mihrab "
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Mihrab</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Accentuate the ornamental indentation that’s marks the Qiblah direction and highlighting the exquisite Islamic arts.</font>]]></text></slide>
+			
+
+
+	
+</main>

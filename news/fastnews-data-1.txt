@@ -1,0 +1,53 @@
+ITEM_START
+28 Dec 2011 4:31 am
+Added Videos:<br>
+<a href="http://smarthomebus.com/Smart-Gate-Web-Host-SB-SGATE-UN-GTIN-UPC-EAN-0610696254573.html" title="Smart-Gate (G4)" target="parent"> - Smart-Gate (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-Automation-Logic-Module-2-G4-SB-Logic2-DN-GTIN-UPC-EAN-0610696254054.html" title="Smart-Bus Logic (G4)" target="parent"> - Smart-Bus Logic (G4)</a><br>
+<a href="http://smarthomebus.com/Security-Safety-Monitoring-Module-G4-SB-SEC250K-DN-GTIN-UPC-EAN-0610696254047.html" title="Smart-Bus SEC250K (G4)" target="parent"> - Smart-Bus SEC250K (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-Hybrid-Integration-Link-with-IP-SB-RSIP-DN-GTIN-UPC-EAN-0610696254061.html" title="Smart-Bus RSIP (G4)" target="parent"> - Smart-Bus RSIP (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-IR-Emitter-with-Current-Sensor-G4-SB-IR-UN-GTIN-UPC-EAN-0610696253774.html" title="Smart-Bus IR Emitter (G4)" target="parent"> - Smart-Bus IR Emitter (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-Relay-4ch-20Amp-ch-DIN-Rail-Mount-G4-SB-RLY4c20A-DN-GTIN-UPC-EAN-0610696253897.html" title="Smart-Bus Relay (G4)" target="parent"> - Smart-Bus Relay (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-HVAC2--DIN-Rail-Mount-G4-SB-HVAC2-DN-GTIN-UPC-EAN-0610696254767.html" title="Smart-Bus HVAC2 (G4)" target="parent"> - Smart-Bus HVAC2 (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-4-Zone-Dry-Input-Module-G4-SB-4Z-UN-GTIN-UPC-EAN-0610696254023.html" title="Smart-Bus 4Z (G4)" target="parent"> - Smart-Bus 4Z (G4)</a><br>
+<a href="http://smarthomebus.com/smart-bus-dynamic-display-panel-ddp-%20sb-ddp-eu-upc-610696254030-ean-0610696254030-black.html" title="Smart-Bus DDP (G4)" target="parent"> - Smart-Bus DDP (G4)</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-Zone-Audio-2-G4-SB-Z-AUDIO2-GTIN-UPC-EAN-0610696253811.html" title="Smart-Bus Zone-Audio2" target="parent"> - Smart-Bus Zone-Audio2</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-9-in-1-Multifunction-Sensor-G4-SB-9in1T-CL-GTIN-UPC-EAN-0610696253996.html" title="Smart-Bus 9in1 Sensor" target="parent"> - Smart-Bus 9in1 Sensor</a><br>
+<a href="http://smarthomebus.com/Smart-Bus-Dimmer-2ch-6Amp-ch-DIN-Rail-Mount-G4-SB-DIM2c6A-DN-GTIN-UPC-EAN-0610696253866.html" title="Smart-Bus Dimmer (G4)" target="parent"> - Smart-Bus Dimmer (G4)</a>
+ITEM_END
+ITEM_START
+29 Dec 2011 4:31 am
+Order Now<br>
+<a href="http://smarthomebus.com/xls-form/G4-Purchase-order-form-empty.xls" title="G4 Purchase Form" target="_blank">Click here to Purchase Smart-Bus G4 Products and fill it up. </a>
+ITEM_END
+ITEM_START
+29 Feb 2012 4:31 am
+Added Softwares:<br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/IR%20Learner%20driver.rar" title="IR Learner Driver" target="_blank"> - IR Learner Driver</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Firmware%20upgrade%20manual%20for%20G4%20z-audio%20and%20RSIP.rar" title="Firmware Upgrade Z-Audio and RSIP" target="_blank"> - Firmware Upgrade Z-Audio and RSIP</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart%20G4%20DDP%20Mar%2009%202012%20V1.37(chipset%20ATMEGA128).hex" title="SmartBus DDP Firmware v1.37" target="_blank"> - SmartBus DDP Firmware v1.37</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart-BUS%20Iphone%20App%20V1.1.ipa" title="SmartBus G4 Iphone App v1.1" target="_blank"> - Iphone App v1.1</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart%20Cloud%20Configuration%20V13.53.EXE" title="Smart Cloud Configuration V13.53 (G4)" target="_blank"> - Smart Cloud V13.53 (G4)</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/HAC-PRO-V3.9.rar" title="HAC V3.9 PRO (G3 & G4)" target="_blank"> - HAC V3.9 PRO (G3 & G4)</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart%20G4%20firmwares%20(March%208,2012).rar" title="SmartBus G4 Firmware Upgrade (March 8, 2012)" target="_blank"> - Firmware Upgrade (March 8, 2012)</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/JTAG%20firmware%20upgrade.rar" title="JTAG Firmware Upgrade" target="_blank"> - JTAG Firmware Upgrade</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/Jan2012/Smart-BUS%20Android%20App%20V2.4%20(Compatible%20with%20G3%20and%20G4).rar" title="Smart-BUS Android App V2.4 (Compatible with G3 and G4)" target="_blank"> - Smart-BUS Android V2.4 (G3 & G4)</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/Jan2012/Simple%20Show%20Control%20V1.2(Compatible%20with%20G3%20&%20G4,including%20video%20codec).rar" title="Simple Show Control V1.2 (Compatible with G3 & G4, including video codec)" target="_blank"> - Simple Show Control V1.2 (G3 & G4)</a><br>
+<a href="http://smarthomebus.com/dealers/Softwares/Jan2012/Smart-Bus%20WinCE%20App%20%20V1.6%20(Compatible%20with%20G3%20&%20G4,including%20SQLite%20Tool).rar" title="Smart-Bus WinCE App  V1.6 (Compatible with G3 & G4,including SQLite Tool)" target="_blank"> - Smart-Bus WinCE V1.6 (G3 & G4)</a>
+ITEM_END
+ITEM_START
+9 Mar 2012 4:31 am
+<font color="#ff0000">Announcement:</font><br>
+<strong>SmartBus G4 Free VIP Training</strong><br><br>
+When: April 23-26, 2012<br>
+Where: Smart Home Showroom, Dubai, UAE<br><br>
+For more details, email: <br>
+sandra@smarthomegroup.com<br>
+helen@smarthomegroup.com<br><br>
+<a href="http://smarthomebus.com/dealers/Others/Training%20Form%202012.pdf" target="_blank">Download Training Form</a><br><br><br>
+<strong>Vietbuild Exhibition</strong><br><br>
+Date: From March 24 to March 28 2012<br>
+Time: 8 am to 10 pm.<br>
+Place: Stand Number 865-866-867, Hall A2, Vietnam Exhibition and fair Center, 148 Giang Vo, Hanoi City<br><br>
+Contact: Mr. Tran Quoc Anh, 0915319186 <br>
+Location Map: <a href="http://smarthomebus.com/images/vietbuild-exhibition-location-map.jog" target="_blank">Click here</a>
+ITEM_END

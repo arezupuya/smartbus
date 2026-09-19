@@ -1,0 +1,114 @@
+* {
+	margin:0;
+	padding:0
+}
+	body {
+	font: normal 11px/11px Verdana,Tahoma,Sans-serif;
+	background:#fff;
+	}
+
+
+/* INPUT FIELD CSS Copy this to your style sheet
+------------------------------------------------------------- */
+#contactform {
+	width:500px;
+	-moz-border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#contactform form {
+	font:normal 11px/11px Verdana,Tahoma;
+	margin:0 0;
+	padding:0;
+	margin-top:20px;
+	width:100%;
+}
+#contactform fieldset {
+	padding:10px 0;
+	margin:0 0 15px 0;
+	background:#fff;
+	border:1px solid #ddd;
+	-moz-border-radius:5px
+}
+
+
+#contactform fieldset legend {
+	font:normal bold 11px/11px Verdana,Tahoma;
+	padding:3px 25px;
+	margin-left:30px;
+	text-transform:uppercase;
+	border:0px solid #ddd;
+}
+#contactform fieldset legend span {
+	font:normal 10px/11px Verdana,Tahoma;
+	text-transform:uppercase;
+	display:block;
+}
+#contactform form label {
+	display:block;
+	float:left;
+	width:150px;
+	padding:6px 10px 0 0;
+	margin:0px;
+	text-align:right;
+}
+#contactform input.inpt, #contactform textarea, #contactform select {
+	width:260px;
+	font:normal 11px/18px Verdana,Tahoma;
+	padding:5px;
+	margin:5px 0 5px 0;
+	background:#f5f5f5;
+	border:1px solid #ddd;
+}
+
+form br {
+	clear:left;
+}
+
+#contactform input.required {
+	background:#f5f5f5 url('images/required.gif') center right no-repeat;
+	
+}
+
+#contactform .select select:focus {
+	border-color: #9b9b9b;
+}
+#contactform form input.btn
+	{
+		background:none;
+		border:none;
+	}
+
+form.c1 input:hover,textarea:hover
+	{
+		border:1px solid #d8d8d8;
+	}
+
+/* Error / Success / Notice 
+------------------------------------------------------------- */
+
+.notes		{ background:#f0f0f0; border:1px solid #b8b8b8; }
+.success	{ background:#ccfcd1; border:1px solid #60a400; }
+.error		{ background:#f9e3e3; border:1px solid #e79e9e; }
+.notice		{ background:#fcf0cc; border:1px solid #ecc735; }
+
+.notes,.notice,.success,.error
+			{
+				padding:10px;
+				font-size:10px;
+				color:#000;
+			}
+
+.notes span,.notice span,.success span,.error span 
+			{
+				font-weight:bold;
+				font-size:1.2em;
+			}
+
+.notes p,.success p,.error p,.notice p
+			{
+				margin:0px;
+				padding:0px;
+			}
+
+#note {width:90%;margin:0 auto; }

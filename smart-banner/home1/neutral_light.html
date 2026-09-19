@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+    <head>
+      
+	<!-- Meta information -->
+	<meta charset="utf-8">
+	
+	<title>Estro - jQuery Ken Burns &amp; swipe effect slider plugin - by pixelentity - Example 2</title>
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow" /> 
+	<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+	  
+	<!-- favicon & idevice homepage thumb -->
+	<link rel="shortcut icon" href="favicon.jpg">
+	
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:bold|Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	
+	<!-- main stylesheets -->
+
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/text.css" />
+	<link rel="stylesheet" href="css/960.css" />
+	<link rel="stylesheet" href="css/preview.css" />
+	<link rel="stylesheet" href="js/pe.kenburns/themes/neutral_light/skin.min.css" />
+	
+	
+	
+	<!-- import jQuery -->
+	<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="js/pe.kenburns/jquery.pixelentity.kenburnsSlider.min.js"></script>
+
+	
+	
+	<!--specify size of slider-->
+	<style>
+		
+		.peKenBurns {
+       		width: 704px;
+       		height: 446px;
+		}
+		
+	</style>
+	
+	<script>
+		jQuery(function($){
+			$(".peKenBurns").peKenburnsSlider({externalFont:true})
+		})
+		// for google fonts, handle captions sizing only after fonts are loaded
+		jQuery(window).load(function() {
+			$(".peKenBurns").each(function() {
+				$(this).data("peKenburnsSlider").fontsLoaded()
+			})
+		})
+	</script>
+    
+    </head>
+   
+    <body id="preview5" class="clearfix">
+		
+	   <div id="annotation">
+
+		<div id="wrapper" class="container_16"> 
+			<h1 class="title">Estro Slider by Pixelentity</h1>
+			
+			<!--start peKenBurns slider-->
+			<div class="peKenBurns peNoJs" data-autopause="image" data-thumb="enabled" data-mode="kb" data-controls="always" data-shadow="enabled" data-logo="enabled" >
+				 
+			   <div class="peKb_active" data-delay="5" data-thumb="img/thumbs/kb_01.jpg">
+			   <img src="img/kb_01bw.jpg" alt="Banner Image 1" />
+			   <h1>Welcome to "Estro" slider by Pixelentity</h1>
+			   </div>
+
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_02.jpg">
+			   <a class="video hd autoplay loop" href="http://vimeo.com/7809605"><img src="img/blank.png" data-src="img/kb_02bw.jpg" alt="Banner Image 1" /></a>
+			   <h1>An elegant Ken Burns jQuery plugin</h1>
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_03.jpg">
+			   <img src="img/blank.png" data-src="img/kb_03bw.jpg" alt="Banner Image 1" />
+
+			   <h1>A smooth and sexy cross-browser slider for your images &amp; video</h1>
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_04.jpg">
+			   <img src="img/blank.png" data-src="img/kb_04bw.jpg" alt="Banner Image 1" />
+			   <h1>With support for both YouTube &amp; Vimeo videos</h1>
+
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_05.jpg">
+			   <a class="video hd autoplay loop" href="http://www.youtube.com/watch?v=lZOnrN4x0Zk"><img src="img/blank.png" data-src="img/kb_05bw.jpg" alt="Banner Image 1" /></a>
+			   <h1>Featuring animated captions on an animated trasparent background</h1>
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_06.jpg">
+
+			   <img src="img/blank.png" data-src="img/kb_06bw.jpg" alt="Banner Image 1" />
+			   <h1>Including gorgeous Ken Burns and 2-way Swipe transitions</h1>
+			   </div>
+			   
+			   <!-- lazy loading active -->
+			   <div data-delay="5" data-thumb="img/thumbs/kb_07.jpg">
+			   <img src="img/blank.png" data-src="img/kb_07bw.jpg" alt="Banner Image 1" />
+			   <h1>This plugin also supports multi-use in a single HTML page</h1>
+			   </div>
+
+				 
+			</div>	
+			<!--end peKenBurns slider -->
+				  
+			<!--menu-->
+			<div id="menuWrapper">
+				<h2>SELECT A DEMO:</h2>
+				<ul id="menu">
+					<li class="first">
+						<a href="index.html">1</a>
+
+						   <ul>
+							   <li class="subtitle">PIXELENTITY SKIN</li>
+							   <li>Full Width</li>
+							   <li>Ken Burns Effect</li>
+							   <li>Thumbnail Popup</li>
+							   <li>Image Over Pause</li>
+
+							   <li>Animated Timer</li>
+							   <li>Always-on Controls</li>
+							   <li>Animated Captions</li>
+						   </ul>
+						
+					</li>
+					<li class="second selected">
+						<span class="current"></span>
+
+						<a href="#">1</a>
+							<ul>
+								<li class="subtitle">LIGHT SKIN</li>
+								<li>704x396px (16:9)</li>
+								<li>Ken Burns Effect</li>
+								<li>Thumbnail Popup</li>
+
+								<li>Image Over Pause</li>
+								<li>Animated Timer</li>
+								<li>Always-on Controls</li>
+								<li>Animated Captions</li>
+							</ul>
+						
+					</li>
+					<li class="fifth">
+
+						<a href="neutral.html">1</a>
+						   <ul>
+							   <li class="subtitle">DARK SKIN</li>
+							   <li class="new">Inner Controls (new)</li>
+							   <li>Full Width</li>
+							   <li>Swipe Transition</li>
+
+							   <li>Thumbnail Popup</li>
+							   <li>Image Over Pause</li>
+							   <li>Animated Timer</li>
+							   <li>Animated Captions</li>
+						   </ul>
+					</li>
+					<li class="third">
+
+						<a href="dual.html">2</a>
+						   <ul>
+							   <li class="subtitle">ORGANIC SKIN</li>
+							   <li>Double Slider</li>
+							   <li>Ken Burns &amp; Swipe</li>
+							   <li>Image Over Pause</li>
+
+							   <li>Animated Timer</li>
+							   <li>Auto-hide Controls</li>
+							   <li>Animated Captions</li>
+						   </ul>
+					   
+					</li>
+					<li class="fourth">
+						<a href="grid.html">3</a>
+
+						   <ul>
+							   <li class="subtitle">MINIMAL</li>
+							   <li>3x2 Grid</li>
+							   <li>Ken Burns Rollover</li>
+							   <li>1 Looped Image</li>
+							   <li>Controls Disabled</li>
+
+							   <li>Rollover Captions</li>
+							   <li>Lightbox Integration</li>
+						   </ul>
+						
+					</li>
+					
+				</ul>
+				<!--end menu-->
+			  </div>
+			  <!--end menu wrapper-->
+
+			 
+		 </div>
+		 <!--end wrapper-->
+		</div>
+		<!--end annotation-->
+    </body>
+	
+</html>

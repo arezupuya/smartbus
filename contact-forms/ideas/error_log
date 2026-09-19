@@ -1,0 +1,7 @@
+[03-Sep-2011 00:53:30] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[03-Sep-2011 00:53:31] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[03-Sep-2011 00:53:53] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[03-Sep-2011 00:53:59] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[03-Sep-2011 00:54:06] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[03-Sep-2011 03:37:11] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133
+[05-Sep-2011 03:31:06] PHP Fatal error:  Call to undefined function mb_substr() in /home/smartbus/public_html/ideas/include/captcha-creator.php on line 133

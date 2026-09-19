@@ -1,0 +1,16 @@
+1. Download the latest version zip file
+2. Unzip the files at your local machine
+3. Decide where you will be uploading phpFastNews files to at your site. You can upload them in any folder or even in the home folder. I would recommend to create a separate folder, name it fastnews for example
+4. Have a look at the fastnews-conf.php file. You will need to set at least 2 things:
+     * your password at line 3
+     * the fastnews-code.php file URL (it should be something like http://www.yoursite.com/fastnews/fastnews-code.php). It depends on your step 3, i.e. where you will be installing phpFastNews.
+5. Upload the files to the place decided in step 3.
+6. You need to set the fastnews-data.txt writable by your script so make chmod 666 command for this file.
+7. Now you can have the news section imbedded into any PHP page at your website. Just put this code in a place you want it to appear:
+
+<?php
+include_once( '/path-to-fastnews-folder/fastnews-code.php' );
+$fn = new fastNews();
+echo $fn->display();
+?>
+

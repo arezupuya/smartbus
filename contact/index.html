@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- JQuery -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script type="text/javascript">  
+        
+$(document).ready(function() {
+	
+    $("#ajax-contact-form").submit(function() {
+        $('#load').append('<center><img src="ajax-loader.gif" alt="Currently Loading" id="loading" /></center>');
+
+        var fem = $(this).serialize(),
+			note = $('#note');
+	
+        $.ajax({
+            type: "POST",
+            url: "contact.php",
+            data: fem,
+            success: function(msg) {
+				if ( note.height() ) {			
+					note.slideUp(1000, function() { $(this).hide(); });
+				} 
+				else note.hide();
+
+				$('#loading').fadeOut(300, function() {
+					$(this).remove();
+
+					// Message Sent? Show the 'Thank You' message and hide the form
+					result = (msg === 'OK') ? '<div class="success">Your message has been sent. Thank you!</div>' : msg;
+
+					var i = setInterval(function() {
+						if ( !note.is(':visible') ) {
+							note.html(result).slideDown(1000);
+							clearInterval(i);
+						}
+					}, 40);    
+				}); // end loading image fadeOut
+            }
+        });
+
+        return false;
+    });
+});
+
+
+</script>  
+</head>
+
+<body>
+
+<!--begin:contact form block-->
+<div id="contactform">
+	<fieldset><legend>Contact</legend>
+	
+	<!--begin:notice message block-->
+	<div id="note"></div>
+	<!--begin:notice message block-->
+
+		<form id="ajax-contact-form" method="post" action="contact.php" action="javascript:alert('success!');">
+
+			<label>Name</label><input class="required inpt" type="text" name="name" value="" /><br />
+			<label>E-Mail</label><input class="required inpt" type="text" name="email" value="" /><br />
+			<label>Phone Number</label><input class="required inpt" type="text" name="phone" value="" /><br />
+			<label>Subject</label>
+				<select name="subject" id="subject" class="select">
+					<option value="">Select your subject</option>
+					<option value="Sales Department">Sales Department</option>
+					<option value="Technical Deparment">Technical Deparment</option>
+					<option value="Billing Department">Billing Department</option>
+				</select>
+			<!--  <input class="required inpt" type="text" name="subject" value="" /> --><br />
+			<label>Comments</label><textarea class="textbox" name="message" rows="6" cols="30"></textarea><br />
+			<label>Are you human? 5-2+1 </label><input class="required inpt" type="text" name="answer" value="" /><br />
+			<label id="load"></label><input name="submit" type="image" class="btn" src="images/submit.gif" value="Send" />
+
+		</form>
+	</fieldset>
+<!--end:contact form block--> 
+
+</body>
+</html>

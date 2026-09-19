@@ -1,0 +1,160 @@
+
+/* ============================= Settings page ====================================== */
+
+.divSettingsPage{		/*div wrapping the settings page (without sections)*/
+	
+}
+
+.divAllSettings{		/*div wrapping the settings (no sections)*/
+	
+}
+
+.divAllSettings input,.divAllSettings select{
+	border:1px solid #7F9DB9;
+}
+
+.spanSettingsStaticText{
+	font-style:italic;
+	font-size:14px;
+}
+
+.divAllSettings input.inputCheckbox{			/* all checkbox inputs */
+	border-width:0px;
+}
+
+.tableSettings{
+	
+}
+
+.tableSettings tr td{
+	padding-bottom:10px;
+}
+
+.tableSettings tr td.cellText{
+	vertical-align:top;
+	text-align:right;
+	width:300px;
+}
+
+.tableSettings tr.disabled td{
+	color:#919191;
+}
+
+.tableSettings .inputColorPicker{
+	
+}
+
+.tableSettings textarea{
+	width:200px;
+	height:120px;
+}
+
+.divSection{
+}
+
+.divSap{
+}
+
+.divSapControl{		/*the separater control (the accordion caption item) */
+	background-image: url(images/accordion-bg.png);
+	background-repeat:repeat-x;	
+	height:25px;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.divSapControl .divSapControlText,.divSapControl.opened .divSapControlText{
+	float:left;
+	height:25px;
+	vertical-align:middle;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:4px;
+}
+
+.divSapControl .divSapControlIcon,.divSapControl.opened .divSapControlIcon{
+	background-image: url(images/accordion-arrow-left.png);
+	background-repeat:no-repeat;
+	margin-left:5px;
+	float:left;
+	width:23px;
+	height:25px;
+	color:red;
+}
+
+.divSapControl.opened .divSapControlText{
+}
+
+.divSapControl.opened .divSapControlIcon{
+	background-image: url(images/accordion-arrow-down.png);
+}
+
+.spanSettingsAddtext{
+	font-size:12px;
+	font-style:italic;
+}
+
+/* ============================= Common Elements ====================================== */ 
+
+.confirmText{
+	color:green;
+}
+
+.errorText{
+	color:red;
+}
+
+
+/* ====================== Sections menu ================================== */
+
+.cellSections{
+	width:220px;
+	text-align:left;
+}
+
+ul.listSections{
+	list-style:none;
+	margin:0px;
+	padding:0px;	
+}
+
+ul.listSections li{
+	cursor:pointer;
+	display:block;
+	text-align:left;
+	height:42px;	
+	border-bottom:1px solid #ffffff;
+	width:200px;
+}
+
+ul.listSections li a{
+	text-decoration:none;
+	display:block;
+	color:#ffffff;
+	background-image: url(images/menu-button-normal.png);
+	background-repeat:no-repeat;
+	height:42px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+ul.listSections li a div{	/* sections text */
+	display:block;
+	padding-left:10px;
+	padding-top:13px;
+}
+
+ul.listSections li a:hover{
+	background-image: url(images/menu-button-over.png);	
+}
+
+ul.listSections li.selected a{
+	background-image: url(images/menu-button-selected.png);
+	color:black;
+}
+
+ul.listSections li.over{
+	background-color:red;
+}

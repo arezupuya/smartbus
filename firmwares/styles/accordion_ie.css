@@ -1,0 +1,6 @@
+/* --- single block section paragraph --- */	
+div.qlabs_accordion li.block div p
+	{
+	position: static;
+	top: 0px;
+	}

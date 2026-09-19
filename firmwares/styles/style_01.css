@@ -1,0 +1,97 @@
+/* --- accordion body --- */
+div.qlabs_accordion
+	{
+	color: #666666;
+	background-color: #999999;
+	}
+
+/* --- links global --- */
+div.qlabs_accordion a
+	{
+	color: #ff0000;
+	}
+	
+/* --- accordion header label --- */
+div.qlabs_accordion li.block_header
+	{
+	color: #ffffff;
+	}
+	
+/* --- single block --- */
+div.qlabs_accordion li.block
+	{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #bcbcbc;
+	background-color: #e8e8e8; /* background color for non-css3 browsers */
+	/* CSS3 gradient */
+	background-image: linear-gradient(top, #ebebeb, #e3e3e3); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#e3e3e3'); /* IE5.5 - 7 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#e3e3e3'); /* IE8 */
+	background: -ms-linear-gradient(top, #ebebeb, #e3e3e3); /* IE9 */
+	background: -moz-linear-gradient(top, #ebebeb, #e3e3e3); /* Firefox */ 
+	background: -o-linear-gradient(top, #ebebeb, #e3e3e3); /* Opera 11  */
+	background: -webkit-linear-gradient(top, #ebebeb, #e3e3e3); /* Chrome 11  */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebebeb), color-stop(1, #e3e3e3)); /* Chrome 10, Safari */
+	}
+
+div.qlabs_accordion li.block:nth-last-child(1)
+	{
+	border-bottom: 0;
+	}
+	
+/* --- single block arrow --- */
+div.qlabs_accordion li.block div.arrow
+	{
+	border-top: 4px solid #aaaaaa;
+	}
+
+/* --- single block label --- */
+div.qlabs_accordion li.block a.header
+	{
+	color: #666666;
+	text-shadow: 0px 1px 0px #ffffff;
+	}
+
+/* ---  single block hover --- */	
+div.qlabs_accordion li.block a.header:hover
+	{
+	color: #222222;
+	text-shadow: 0px 1px 0px #ffffff;
+	background-color: #f1f1f1; /* background color for non-css3 browsers */
+	/* CSS3 gradient */
+	background-image: linear-gradient(top, #f5f5f5, #ececec); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ececec'); /* IE5.5 - 7 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ececec'); /* IE8 */
+	background: -ms-linear-gradient(top, #f5f5f5, #ececec); /* IE9 */
+	background: -moz-linear-gradient(top, #f5f5f5, #ececec); /* Firefox */ 
+	background: -o-linear-gradient(top, #f5f5f5, #ececec); /* Opera 11  */
+	background: -webkit-linear-gradient(top, #f5f5f5, #ececec); /* Chrome 11  */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(1, #ececec)); /* Chrome 10, Safari */
+	}
+	
+/* ---  single block label target --- */
+div.qlabs_accordion li.block:target a.header,
+div.qlabs_accordion li.block.target a.header
+	{
+	color: #222222;
+	text-shadow: 0px 1px 0px #ffffff;
+	border-bottom: 1px solid #bcbcbc;
+	background-color: #f1f1f1; /* background color for non-css3 browsers */
+	/* CSS3 gradient */
+	background-image: linear-gradient(top, #f5f5f5, #ececec); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ececec'); /* IE5.5 - 7 */
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ececec'); /* IE8 */
+	background: -ms-linear-gradient(top, #f5f5f5, #ececec); /* IE9 */
+	background: -moz-linear-gradient(top, #f5f5f5, #ececec); /* Firefox */ 
+	background: -o-linear-gradient(top, #f5f5f5, #ececec); /* Opera 11  */
+	background: -webkit-linear-gradient(top, #f5f5f5, #ececec); /* Chrome 11  */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(1, #ececec)); /* Chrome 10, Safari */	
+	}	
+		
+/* --- single block section target --- */
+div.qlabs_accordion li:target div,
+div.qlabs_accordion li.target div
+	{
+	background-color: #ffffff;
+	border-top: 1px solid #ececec;
+	}	

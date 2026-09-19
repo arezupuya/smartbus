@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth="1000"
+	stageHeight="350"
+	stageBgColor="ffffff"
+	stageBgTransparency="100"
+	
+	imageWidth="1000"
+	imageHeight="350"
+	imageTransitionType="slide"
+	imageResize="yes"
+	imageAlign="TL"
+	imageRandomDisplay="no"
+	imageAutoPlay="yes"
+	
+	thumbnails="yes"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="no"
+	thumbnailsMaskSize="0"
+	thumbnailsScrollSpeed="95"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="0"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="no"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="no"
+	
+>
+
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/lobby.jpg"
+	thumbnailText="Lobby" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Lobby</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >The creative lighting brings in good impression and elegance. Offer exclusive high service level of welcoming hospitality and enlivening guests.</font>]]></text></slide>
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/corridor.jpg" 
+	thumbnailText="Corridor" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="10" 
+	textRightSpace="5" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Corridor</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Benefit from energy saving, assisting in reducing extra consumption of un-needed light, mainly at night when all the guests are sleeping yet still provides a good visibility.</font>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/suite.jpg" 
+	thumbnailText="Suite" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Suite</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Fresh and relaxed morning with the perfect room temperature. Feel the difference of each suite adapting to guests lifestyle.</font>]]></text></slide>
+	
+<!-- slide4  -->	
+<slide 
+	image="banner_asset/ballroom.jpg" 
+	thumbnailText="Ballroom"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Ballroom</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Adding touch that endows oomph atmosphere and boost up individual vigor and skills.</font>]]></text></slide>
+
+<!-- slide5  -->	
+<slide 
+	image="banner_asset/meeting-room.jpg" 
+	thumbnailText="Meeting Room"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Meeting Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Seminar and trainings are conducted in a conciliating meeting with good visual thus inimitable lighting, temperature Control and motorized plasma lifts.</font>]]></text></slide>
+			
+<!-- slide6  -->	
+<slide 
+	image="banner_asset/pool.jpg" 
+	thumbnailText="Pool"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Pool</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Take advantage of an open air bliss of your own and your children’s safety, enhancing tune and ease of communication for your outdoor services and assistance required.</font>]]></text></slide>
+		
+		
+<!-- slide7  -->	
+<slide 
+	image="banner_asset/restaurant.jpg" 
+	thumbnailText="Restaurant"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Restaurant</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC">Stimulate your taste buds and savor delicacy of the cuisine with the cozy vibes.</font>]]></text></slide>
+
+
+<!-- slide7  -->	
+<slide 
+	image="banner_asset/spa.jpg" 
+	thumbnailText="Spa"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Spa</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC">Invigorate relaxation and entertains while unwinding as well taking control at the same time.</font>]]></text></slide>
+
+
+	
+</main>

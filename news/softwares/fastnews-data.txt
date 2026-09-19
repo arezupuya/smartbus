@@ -1,0 +1,11 @@
+ITEM_START
+23 Oct 2011 4:31 am
+Download Softwares:
+<p><strong>Apple Apps:</strong></p>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/SMART-BUS%20IPHONE%20APP%20PRO%20V1.7.0%20Sep%2029,%202012.ipa" title="SmartBus G4 Iphone App v1.7" target="_blank">SmartBus G4 Iphone App v1.7</a></li>
+<a href="http://itunes.apple.com/app/z-audio/id473502862?mt=8" title="Smart Z-Audio G4 App" target="_blank">Smart Z-Audio G4 App (For Iphone and Ipad)</a></li>
+<p><strong>Android Apps:</strong></p>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart-BUS%20Android%20V2.5%20for%20G4%20and%20G3.rar" title="Smart-Bus Android ver 2.5">Smart-Bus Android ver 2.5</a></li>
+<p><strong>Hotel Software:</strong></p>
+<a href="http://smarthomebus.com/dealers/Softwares/2012/Smart-Hotel-Software-V1-24.rar" title="Smart Hotel Software v.1.24" target="_blank">Smart Hotel Software v.1.24</a></li>
+ITEM_END

@@ -1,0 +1,209 @@
+/* ============================= Common elements ====================================== */
+
+html {overflow-y: scroll;}	
+
+
+body{
+	margin:0;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	background-image: url(images/bkg_bottom.png);
+	background-attachment:fixed;
+}
+
+.divMain{	/*main div wrapping all */
+	background-image: url(images/bkg-top.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	background-attachment:fixed;	
+}
+
+
+a.normalButton{
+	margin:0 auto;
+	display:block;
+	width:143px;
+	height:30px;
+	cursor:pointer;
+	background-image: url(images/button-normal.png);
+	background-repeat:no-repeat;
+	text-decoration:none;	
+}
+
+a.normalButton div{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	width:143px;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:5px;		
+}
+
+a.normalButton:hover{
+	background-image: url(images/button-over.png);
+}
+
+/* ============================= Settings page ====================================== */ 
+
+.divVerticalButtonWrapper{		/* a wrapper for normal button that aligned vertically */
+	margin-top:15px;	
+	text-align:center;
+	width:200px;
+	height:30px;
+}
+
+/* ============================= CMS Head and body ====================================== */ 
+
+
+.divBodyWrapperTop{		/* wrapper frame*/	
+	height:16px;
+	xfloat:center;
+	margin:0 auto;
+	background-image: url(images/panel-top.png);
+	/*background-repeat:no-repeat; makes problem on ie6*/	
+}
+
+.divBodyWrapperBottom{
+	height:32px;
+	background-image: url(images/panel-bottom.png);
+	background-repeat:no-repeat;
+}
+
+.divWrapperMiddle{
+	background-image: url(images/panel-middle.png);
+	background-repeat:repeat-y;
+	padding-top:5px;
+	padding-bottom:15px;
+}
+
+.divHeaderSection{
+	height:40px;
+	background-image: url(images/top-panel-bg.png);
+	background-repeat:repeat-x;
+	color:#ffffff;
+	margin-bottom:5px;
+}
+
+.divBodySection{	
+	padding-top:10px;	
+	float:center;
+	margin:0 auto;
+	width:970px;
+}
+
+.divTabContent{
+	padding-top:20px;
+	width:895px;
+	float:center;
+	margin:0 auto;
+}
+
+.divMainMenu{	
+	float:center;
+	width:800px;	
+	height:36px;
+	margin:0 auto;
+}
+
+.divHeaderSection .caption{
+	font-size:20px;
+	color:#ffffff;
+	padding-left:10px;	
+	margin-top:10px;	
+	display:inline;
+	float:left;
+}
+
+.divHeaderSection .userInfo{
+	float:right;
+	padding-right:10px;	
+	margin-top:10px;
+	color:#ffffff;
+	font-size:14px;
+}
+
+.divHeaderSection .userInfo a{
+	color:#ffffff;
+}
+
+.divHeaderSection .userInfo a:hover{
+	color:#E2FEF4;
+}
+
+
+/* ====================== Main Menu ================================== */
+
+table.menuWrapperTable{
+	width:100%;
+}
+
+.tableMenuWrapper tr td{
+	height:36px;
+}
+
+.tableMenuWrapper .cellLeft{
+	width:7px;
+	background-image: url(images/menu-panel-left.png);
+	background-repeat:no-repeat;
+}
+
+.tableMenuWrapper .cellRight{
+	width:7px;
+	background-image: url(images/menu-panel-right.png);
+	background-repeat:no-repeat;
+}
+
+.tableMenuWrapper .cellMiddle{
+	background-image: url(images/menu-panel-middle.png);
+	background-repeat:repeat-x;
+}
+
+ul.mainMenu{	
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+ul.mainMenu li{
+	display:inline;
+	float:left;
+	width:90px;	
+	display:block;
+	margin-left:10px;
+}
+
+ul.mainMenu li.right{
+	float:right;
+	margin-right:5px;
+	margin-left:0px;
+	width:80px;
+}
+
+ul.mainMenu li a
+,ul.mainMenu li.selected span{		/* menu cell base */
+	text-align:center;
+	display:block;
+	color:#ffffff;	
+	padding-top:5px;	
+	height:24px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+ul.mainMenu li a:hover{
+	background-image: url(images/menu-panel-over.png);
+	background-repeat:repeat-x;	
+}
+
+ul.mainMenu li.selected span{
+	background-image: url(images/menu-panel-selected.png);
+	background-repeat:repeat-x;
+	cursor:default;
+}
+
+/* ====================== System and debug ================================== */
+
+.border{
+	border:1px solid blue;
+}
+

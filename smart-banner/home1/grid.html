@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+    <head>
+      
+	<!-- Meta information -->
+	<meta charset="utf-8">
+	
+	<title>Estro - jQuery Ken Burns &amp; swipe effect slider plugin - by pixelentity - Example 5</title>
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow" /> 
+	<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+	  
+	<!-- favicon & idevice homepage thumb -->
+	<link rel="shortcut icon" href="favicon.jpg">
+	
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:bold|Droid+Sans' rel='stylesheet' type='text/css'>
+	
+	
+	<!-- main stylesheets -->
+
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/text.css" />
+	<link rel="stylesheet" href="css/960.css" />
+	<link rel="stylesheet" href="css/preview.css" />
+	<link rel="stylesheet" href="css/prettyPhoto.css" />
+	<link rel="stylesheet" href="js/pe.kenburns/themes/default/skin.min.css" />
+	
+	<!-- import jQuery -->
+	<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+
+	<script type="text/javascript" src="js/preview.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.min.js"></script>
+	<script type="text/javascript" src="js/pe.kenburns/jquery.pixelentity.kenburnsSlider.min.js"></script>
+	
+	<!--specify size of grid items-->
+	<style>
+		
+		.peKenBurns {
+       		width: 300px;
+       		height: 240px;
+		}
+		
+	</style>
+	
+	<script>
+		jQuery(function($){
+			$("a[rel^='prettyPhoto']").prettyPhoto()
+			$(".peKbGallery").peKenburnsSlider()
+		})
+	</script>
+
+    
+    </head>
+   
+    <body id="preview4" class="clearfix">
+		
+		<div id="annotation">
+			<div id="wrapper" class="container_16">
+				<h1 class="title">Estro Slider by Pixelentity</h1>
+				
+				<!--start slider grid-->
+
+				<div class="slider edge top noShadow">
+					<a rel="prettyPhoto" href="img/kb_09.jpg"><img class="peKbGallery" data-delay="5" src="img/small/kb_03.jpg" alt="Animated Image Captions" /></a>
+				</div>
+				
+				
+				<div class="slider top noShadow">
+					<a rel="prettyPhoto" href="img/kb_03.jpg"><img class="peKbGallery" data-delay="5" src="img/small/kb_02.jpg" alt="Ken Burns Rollover" /></a>
+				</div>
+				
+				
+				<div class="slider top noShadow">
+					<a rel="prettyPhoto" href="img/dual_kb_01.jpg"><img class="peKbGallery" data-delay="5" src="img/small/kb_01.jpg" alt="Set Effect Loop Time" /></a>
+				</div>
+
+				
+				
+				<div class="slider edge">
+					<a rel="prettyPhoto" href="img/kb_00.jpg"><img class="peKbGallery" data-delay="5" data-shadow="enabled" src="img/small/kb_04.jpg" alt="Click &amp; Launch Lightbox" /></a>
+				</div>
+				
+				
+				<div class="slider">
+					<a rel="prettyPhoto" href="img/kb_06.jpg"><img class="peKbGallery" data-delay="5" data-shadow="enabled" src="img/small/kb_05.jpg" alt="Use Google Fonts in Captions" /></a>
+				</div>
+				
+				
+				<div class="slider">
+					<a rel="prettyPhoto" href="img/kb_08.jpg"><img class="peKbGallery" data-delay="5" data-shadow="enabled" src="img/small/kb_06.jpg" alt="Optional Shadow Below" /></a>
+				</div>
+
+				
+				<!--end slider grid-->
+				
+				<!--menu-->
+				<div id="menuWrapper">
+					<h2>SELECT A DEMO:</h2>
+					<ul id="menu">
+						<li class="first">
+							<a href="index.html">1</a>
+								<ul>
+
+									<li class="subtitle">PIXELENTITY SKIN</li>
+									<li>Full Width</li>
+									<li>Ken Burns Effect</li>
+									<li>Thumbnail Popup</li>
+									<li>Image Over Pause</li>
+									<li>Animated Timer</li>
+
+									<li>Always-on Controls</li>
+									<li>Animated Captions</li>
+								</ul>
+							
+						</li>
+						<li class="second">
+							<a href="neutral_light.html">1</a>
+								<ul>
+
+									<li class="subtitle">LIGHT SKIN</li>
+									<li>704x396px (16:9)</li>
+									<li>Ken Burns Effect</li>
+									<li>Thumbnail Popup</li>
+									<li>Image Over Pause</li>
+									<li>Animated Timer</li>
+
+									<li>Always-on Controls</li>
+									<li>Animated Captions</li>
+								</ul>
+							
+						</li>
+						<li class="fifth">
+						<a href="neutral.html">1</a>
+						   <ul>
+
+							   <li class="subtitle">DARK SKIN</li>
+							   <li class="new">Inner Controls (new)</li>
+							   <li>Full Width</li>
+							   <li>Swipe Transition</li>
+							   <li>Thumbnail Popup</li>
+							   <li>Image Over Pause</li>
+
+							   <li>Animated Timer</li>
+							   <li>Animated Captions</li>
+						   </ul>
+					</li>
+						<li class="third">
+							<a href="dual.html">2</a>
+							   <ul>
+
+								   <li class="subtitle">ORGANIC SKIN</li>
+								   <li>Double Slider</li>
+								   <li>Ken Burns &amp; Swipe</li>
+								   <li>Image Over Pause</li>
+								   <li>Animated Timer</li>
+
+								   <li>Auto-hide Controls</li>
+								   <li>Animated Captions</li>
+							   </ul>
+						</li>
+						<li class="fourth selected">
+							<span class="current"></span>
+							<a href="#">3</a>
+
+							   <ul>
+								   <li class="subtitle">MINIMAL</li>
+								   <li>3x2 Grid</li>
+								   <li>Ken Burns Rollover</li>
+								   <li>1 Looped Image</li>
+								   <li>Controls Disabled</li>
+
+								   <li>Rollover Captions</li>
+								   <li>Lightbox Integration</li>
+							   </ul>
+							
+						</li>
+						
+					</ul>
+				</div>
+				<!--end menu-->
+			</div>
+
+			<!--end wrapper-->
+		</div>
+		<!--end annotation-->
+    </body>
+	
+</html>

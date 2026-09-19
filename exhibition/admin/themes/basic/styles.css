@@ -1,0 +1,148 @@
+/* ============================= Common elements ====================================== */
+
+html {overflow-y: scroll;}	
+
+body{
+	margin:0;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+
+a.normalButton{
+	margin:0 auto;
+	display:block;
+	width:143px;
+	height:30px;
+	cursor:pointer;
+	text-decoration:none;
+	background-color:#4D4D4D;
+	border:1px solid #969696;
+}
+
+a.normalButton div{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	width:143px;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:5px;		
+}
+
+a.normalButton:hover{
+	background-color:#686868;
+}
+
+
+
+/* ============================= Settings page ====================================== */ 
+
+.divVerticalButtonWrapper{		/* a wrapper for button that aligned vertically */
+	margin-top:15px;
+	padding-right:20px;
+	text-align:center;
+}
+
+/* ============================= CMS Head and body ====================================== */ 
+
+.divMain{	/*main div wrapping all */
+		
+}
+
+.divHeaderSection{
+	height:40px;
+	background-color:#464646;
+	color:#ffffff;
+}
+
+.divHeaderSection .caption{
+	font-size:20px;
+	color:#ffffff;
+	padding-left:10px;	
+	margin-top:10px;	
+	display:inline;
+	float:left;
+}
+
+.divHeaderSection .userInfo{
+	float:right;
+	padding-right:10px;	
+	margin-top:10px;
+	color:#ffffff;
+	font-size:14px;
+}
+
+.divHeaderSection .userInfo a{
+	color:#ffffff;
+}
+
+.divHeaderSection .userInfo a:hover{
+	color:#E2FEF4;
+}
+
+.divBodySection{
+	padding-top:10px;	
+	float:center;
+	margin:0 auto;
+	width:895px;
+}
+
+.divTabContent{
+	padding-top:20px;
+}
+
+
+
+
+/* ====================== Main Menu ================================== */
+
+.tableMenuWrapper .cellMiddle{
+	padding-top:4px;
+}
+
+.divMainMenu{	
+	height:36px;
+	background-color:#4D4D4D;
+}
+
+
+ul.mainMenu{	
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+ul.mainMenu li{
+	display:inline;
+	float:left;
+	width:90px;	
+	display:block;
+	margin-left:10px;
+}
+
+
+ul.mainMenu li a
+,ul.mainMenu li.selected span{		/* menu cell base */
+	text-align:center;
+	display:block;
+	color:#ffffff;	
+	padding-top:5px;
+	height:24px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+ul.mainMenu li a:hover{
+	background-color:#686868;
+}
+
+ul.mainMenu li.selected span{
+	background-color:#686868;	
+	cursor:default;
+}
+
+/* ====================== System and debug ================================== */
+
+.border{
+	border:1px solid blue;
+}
+

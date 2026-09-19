@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth="1000"
+	stageHeight="350"
+	stageBgColor="ffffff"
+	stageBgTransparency="100"
+	
+	imageWidth="1000"
+	imageHeight="350"
+	imageTransitionType="slide"
+	imageResize="yes"
+	imageAlign="TL"
+	imageRandomDisplay="no"
+	imageAutoPlay="yes"
+	
+	thumbnails="yes"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="no"
+	thumbnailsMaskSize="0"
+	thumbnailsScrollSpeed="95"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="0"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="no"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="no"
+	
+>
+
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/image1.jpg"
+	thumbnailText="Living Room" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Living Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Balancing Ambiance According to Occasion, mixing Light scenes, Music, Spice of scent, and Temperature, Complete Entertainment in Comfort</font>]]></text></slide>
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/image2.jpg" 
+	thumbnailText="Kitchen" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="10" 
+	textRightSpace="5" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="http://smarthomeuae.com/new3/smart-kitchen.php" target="_parent">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Kitchen</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Work Safe, Entertain while working, Communicate with Ease, Get the Family together.</font>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/image3.jpg" 
+	thumbnailText="Bedroom" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="http://smarthomeuae.com/new3/smart-bedroom.php" target="_parent">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Bedroom</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Sleep in Comfort, Wake up fresh and Healthy, add Oxygen and Enjoy your Room Environment</font>]]></text></slide>
+	
+<!-- slide4  -->	
+<slide 
+	image="banner_asset/image4.jpg" 
+	thumbnailText="Bathroom"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="http://smarthomeuae.com/new3/smart-bathroom.php" target="_parent">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Bathroom</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Feel the difference, think deep, relax and indulge, write the story on the foggy walls, experience elite and un-usual atmosphere</font>]]></text></slide>
+
+<!-- slide5  -->	
+<slide 
+	image="banner_asset/image5.jpg" 
+	thumbnailText="Dining Room"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="http://smarthomeuae.com/new3/smart-dining.php" target="_parent">
+<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Dining Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Fancy dining, Control the brains and the feelings, makes each dinning memorable and experience grandeur of the occasion.</font>]]></text></slide>
+			
+<!-- slide6  -->	
+<slide 
+	image="banner_asset/image6.jpg" 
+	thumbnailText="Study Room"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="http://smarthomeuae.com/new3/smart-study-room.php" target="_parent">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Study Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Brings you inspiration and will to comprehend, Controls your attention, Energizes, enhance knowledge</font>]]></text></slide>
+		
+		
+<!-- slide7  -->	
+<slide 
+	image="banner_asset/image7.jpg" 
+	thumbnailText="Cinema Room"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="http://smarthomeuae.com/new3/smart-cinema.php" target="_parent">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Cinema Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC">Live in its world, relate, share the experience
+</font>]]></text></slide>
+
+
+	
+</main>

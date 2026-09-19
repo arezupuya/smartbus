@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jQuery OneByOne Slider Plugin</title>
+  	<script src="js/jquery-1.6.4.min.js"></script>
+    <script src="js/jquery.onebyone.js"></script>              
+	<script src="js/jquery.touchwipe.js"></script> 
+    <script type="text/javascript" charset="utf-8">	
+	 $(document).ready(function() { 
+		
+        $('#banner').oneByOne({
+			className: 'oneByOne1',	             
+			easeType: 'random',
+			slideShow: true
+		});  
+		
+		
+	 });
+   	
+	 
+    </script> 
+    <link href="css/jquery.onebyone.css" rel="stylesheet" type="text/css">
+    <link href="css/example1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">     
+	<style type="text/css" media="screen">
+		#wrapper{              
+			width: 100%;     
+			-webkit-user-select: none;	  			
+		}
+       
+		#ep1{
+			position:absolute;
+			left: 36px;
+			top: 50px; 
+	
+		}
+
+    
+		.otherExample{ 
+			position: absolute;
+			left: 36px;
+			top: 520px;
+		}
+		.otherExample a{ 
+			display: block;
+			float: left;
+			margin-right: 16px;
+			color: #0066FF;
+		}    
+ 		.otherExample a:hover{ 
+			color: #B22222;
+			text-decoration: underline;
+		}     		
+		
+	</style>
+	
+	
+</head>
+
+<body>
+
+<div id="banner">  
+
+<div class="oneByOne_item"> 
+<img src="images/example1/living-room.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Living Room</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/kitchen.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Kitchen</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/dining-room.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Dining Room</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/bedroom.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Bedroom</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/bathroom.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Bathroom</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/study-room.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Study Room</span>
+</div>
+
+<div class="oneByOne_item"> 
+<img src="images/example1/cinema-room.jpg"  class="bigImage" ></img>
+<span class="slide5Txt1">Cinema Room</span>
+</div>
+
+
+</div>    
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+ITEM_START
+30 May 2012 4:31 am
+SmartBUS G4 Training Schedules<br>
+<a href="http://smarthomebus.com/training-agenda-philippines.html" title="Smart Bus Philippine Training" target="_blank">Philippines Training</a><br>
+<a href="http://smarthomebus.com/training-agenda-cyprus.html" title="Smart Bus Cyprus Training" target="_blank">Cyprus Training</a><br>
+<a href="http://smarthomebus.com/training-agenda-india.html" title="Smart Bus India Training" target="_blank">India Training</a><br>
+<a href="http://smarthomebus.com/training-agenda-africa.html" title="Smart Bus Tunisia Training" target="_blank">Tunisia Training</a><br>
+<a href="http://smarthomebus.com/training-agenda-europe.html" title="Smart Bus Germany Training" target="_blank">Germany Training</a>
+ITEM_END
+ITEM_START
+13 Nov 2012 5:31 am
+Download the New SmartBUS Product Catalogue<br>
+<center><a href="http://smarthomebus.com/dealers/Catalogues/2012%20Product%20catalogue%20(En)6.2.pdf" target="_blank" title="SmartBUS Product Catalogue v.6.2" alt="SmartBUS Product Catalogue v.6.2"><img src="http://smarthomebus.com/images/downloads/smartbus-catalog.jpg" border="0"></a><br>
+<strong><a href="http://smarthomebus.com/dealers/Catalogues/2012%20Product%20catalogue%20(En)6.2.pdf" target="_blank" title="SmartBUS Product Catalogue v.6.2">SmartBUS Product Catalogue v.6.2</a></strong></center>
+ITEM_END

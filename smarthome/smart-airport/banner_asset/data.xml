@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth="635"
+	stageHeight="323"
+	stageBgColor="242424"
+	stageBgTransparency="100"
+	
+	imageWidth="635"
+	imageHeight="323"
+	imageTransitionType="slide"
+	imageResize="yes"
+	imageAlign="TL"
+	imageRandomDisplay="no"
+	imageAutoPlay="yes"
+	
+	thumbnails="yes"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="no"
+	thumbnailsMaskSize="0"
+	thumbnailsScrollSpeed="95"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="0"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="no"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="no"
+	
+>
+
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/check-in-counter.jpg"
+	thumbnailText="Check-in Counter" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Check-in Counter</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Furnish precise information-rich, high-value customer service minimizing delay preferential travelers segmentation.</font>]]></text></slide>
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/waiting-area.jpg" 
+	thumbnailText="Waiting Area" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="10" 
+	textRightSpace="5" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Waiting Area</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Enhanced integrated passenger structure via optimized, efficient real-time information and status of the travel environment.</font>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/runway.jpg" 
+	thumbnailText="Runway" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Runway</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Innovative taxiway lighting system prognostic trajectory information assists accurately on the desired landing and take-off order.</font>]]></text></slide>
+	
+<!-- slide4  -->	
+<slide 
+	image="banner_asset/baggage-claim.jpg" 
+	thumbnailText="Baggage Claim"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="25">Baggage Claim</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Provides safe and high quality care, accessibility and efficiency by delivering an up to date location information.</font>]]></text></slide>
+
+	
+</main>

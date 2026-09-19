@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<main 
+
+	stageWidth=""
+	stageHeight=""
+	stageBgColor="1E1E1E"
+	stageBgTransparency="100"
+	
+	imageWidth="390"
+	imageHeight=""
+	imageTransitionType="auto"
+	imageResize="fit"
+	imageAlign="TR"
+	imageRandomDisplay="no"
+	imageAutoPlay="no"	
+	
+	thumbnails="no"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="yes"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="20"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="yes"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="yes"
+	
+>
+
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/image1.jpg" 
+	thumbnailText=""
+	textTransitionType="1"
+	textWidth="185" 
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="4"
+	url="" target="_blank">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="18" >BANNER / SLIDESHOW
+	</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#CFFAFC" >Uploaded on - <font color="#FFFFFF"> 15 June 2009</font></font>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#CFFAFC" >User Rating - </font><font size="18"  color="#f48120" >*****</font>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#CFFAFC" >Published Size - <font color="#FFFFFF">11.3kb </font></font>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#CFFAFC" >ActionScript Version - <font color="#FFFFFF">AS3 + AS2 </font></font>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#CFFAFC" >Documentation -  </font><font size="11" color="#FFFFFF">Well Documented</font></font>
+	
+	]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<font size="12"  color="#FFFFFF" >This is a BANNER / SLIDESHOW which can be updated easily through xml. All the data including images, text, text animation, text size, lines, margin, alignment, position and all other parameters can be controlled through xml for each slide <font  color="#FFCC00" ><u> readmore..</u></font></font>]]></text></slide>
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/image2.jpg" 
+	textTransitionType="2"
+	textWidth="185"  
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="4"
+	url="" target=""> 
+	<text font="1" leftMargin="" ><![CDATA[<b><font size="20" >Add </font><font size="40" >MULTIPLE LINES.</font></b>]]></text> 
+	<text font="1" leftMargin="35" ><![CDATA[<b><font size="20" >for each slide, set different Left Margin, Width and <font color="#FF0000">COLOR.</font></font></b>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/image3.jpg" 
+	textTransitionType="4"
+	textWidth="185"  
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="5"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20" color="#CCFF99" >TEXT ANIMATION:</font></b>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<b><font size="20" >Five types of animations are available</font></b>]]></text>
+	<text font="1" leftMargin="" ><![CDATA[<b><font size="20" >Fade, Move from Left, Right, Top and Bottom.</font></b>]]></text></slide>	
+	
+<!-- slide4  -->	
+<slide 
+	image="banner_asset/image4.jpg" 
+	textTransitionType="2"
+	textWidth="185"  
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0"  
+	slideShowDelay="5"
+	url="http://flashden.net/user/FMedia" target="_blank">
+	<text font="1" leftMargin="20" ><![CDATA[<b><font size="20" >Option to choose <font size="40" >FIVE</font> different image transitions with auto transition.</font></b>]]></text>
+	<text font="1" leftMargin="20" ><![CDATA[<b><font size="20" >Click over the image will launch a <u>URL</u>.</font></b>]]></text></slide>	
+
+<!-- slide5  -->	
+<slide 
+	image="banner_asset/image5.jpg" 
+	textTransitionType="1"
+	textWidth="185" 
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0"  
+	slideShowDelay="5"
+	url="" target="">
+	<text leftMargin="" ><![CDATA[<b><font size="20" >Options for</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >HORIZONTAL & VERTICAL</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >thumbnails arrangment</font></b>]]></text></slide>
+	
+			
+<!-- slide6  -->	
+<slide 
+	image="banner_asset/image6.jpg" 
+	textTransitionType="5"
+	textWidth="185" 
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="5"
+	url="" target="">
+	<text leftMargin="" ><![CDATA[<b><font size="20" >FONT</font><font size="20" > can be embed / none embed.</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >Easy to change the embed font type.</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >Support HTML format text.</font></b>]]></text></slide> 
+		
+		
+<!-- slide7  -->	
+<slide 
+	image="banner_asset/image7.jpg" 
+	textTransitionType="1"
+	textWidth="185" 
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="4"
+	url="" target="">
+	<text leftMargin="" ><![CDATA[<b><font size="20" >Easy to position the</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >Text & Thumbnails</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="20" >using align and spacing options.</font></b>]]></text></slide>   
+	
+
+<!-- slide8  -->	
+<slide 
+	image="banner_asset/swf_file.swf" 
+	textTransitionType="2"
+	textWidth="185"  
+	textAlign="TL" 
+	textLeftSpace="5" 
+	textRightSpace="0" 
+	textTopSpace="5" 
+	textBottomSpace="0" 
+	slideShowDelay="16"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20" color="#CCFF99" >TRANSITION EFFECTS:</font></b>]]></text>
+	<text leftMargin="" ><![CDATA[<b><font size="16" color="#CCCCCC" >
+Using auto transition option the images can be automatically animated by five different transitions:</n></n></font></b>]]></text>
+<text leftMargin="" ><![CDATA[<b><font size="16">1. Simple Fade-in</font></b>]]></text>
+<text leftMargin="" ><![CDATA[<b><font size="16">2. Move </font></b>]]></text>
+<text leftMargin="" ><![CDATA[<b><font size="16">3. Diagonal fade </font></b>]]></text>
+<text leftMargin="" ><![CDATA[<b><font size="16">4. Radial fade.</font></b>]]></text>
+<text leftMargin="" ><![CDATA[<b><font size="16">5. Circular Mask.</font></b>]]></text></slide>
+
+	
+</main>

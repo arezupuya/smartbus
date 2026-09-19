@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth="635"
+	stageHeight="323"
+	stageBgColor="242424"
+	stageBgTransparency="100"
+	
+	imageWidth="635"
+	imageHeight="323"
+	imageTransitionType="slide"
+	imageResize="yes"
+	imageAlign="TL"
+	imageRandomDisplay="no"
+	imageAutoPlay="yes"
+	
+	thumbnails="yes"
+	thumbnailWidth="0"
+	thumbnailHeight="0"
+	thumbnailToThumbnailSpacing="3"
+	thumbnailsArrangeHorizontal="yes"
+	thumbnailsAutoHide="no"
+	thumbnailsMaskSize="0"
+	thumbnailsScrollSpeed="95"
+	thumbnailsAlign="BR"
+	thumbnailsLeftSpace="0"
+	thumbnailsRightSpace="90"
+	thumbnailsTopSpace="0"
+	thumbnailsBottomSpace="7"
+
+	textEmbedFont="yes"
+	textShadowTransparency="70"
+	textShadowDistance="2"
+	
+	buttonAutoHide="no"
+	buttonBgColor="ffffff"
+	buttonIconColor="000000"
+	buttonAutoPosition="no"
+	
+>
+
+
+<!-- slide1  -->
+<slide 
+	image="banner_asset/lobby.jpg"
+	thumbnailText="Lobby" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Lobby</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font size="16" color="#FFFFCC" >Stability in emphasizing accuracy on patient, family service assistance to their satisfaction with smart integrated and current information and communication.</font>]]></text></slide>
+
+<!-- slide2  -->	
+<slide 
+	image="banner_asset/operating-room.jpg" 
+	thumbnailText="Operating Theater" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="10" 
+	textRightSpace="5" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Operating Theater</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >State-of-the art clinically focused facility and efficient service for treatment. Reduced documentation time for hospital staffs allowing them to spend more time giving patient care.</font>]]></text></slide>
+	
+<!-- slide3  -->	
+<slide 
+	image="banner_asset/bedroom.jpg" 
+	thumbnailText="In-Patient Room" 
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="8"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">In-Patient Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Provides comfort for patients, physicians and caregivers  in administration of medication schedules and medical records.</font>]]></text></slide>
+	
+<!-- slide4  -->	
+<slide 
+	image="banner_asset/emergency-room.jpg" 
+	thumbnailText="Emergency Room"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+	<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Emergency Room</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Improves and assures patient safety, coordinated high quality care and superiority in treatment workplace.</font>]]></text></slide>
+
+<!-- slide5  -->	
+<slide 
+	image="banner_asset/pharmacy.jpg" 
+	thumbnailText="Pharmacy"
+	textTransitionType="1"
+	textWidth="" 
+	textAlign="BL" 
+	textLeftSpace="20" 
+	textRightSpace="0" 
+	textTopSpace="" 
+	textBottomSpace="30" 
+	slideShowDelay="4"
+	url="" target="">
+<text font="2" leftMargin="" ><![CDATA[<b><font size="20">Pharmacy</font></b>]]></text>   
+	<text font="1" leftMargin="" ><![CDATA[<font  size="16" color="#FFFFCC" >Fervent service using latest optimal use of technologies in flow of general and medical information.</font>]]></text></slide>
+			
+
+
+	
+</main>

@@ -1,0 +1,11 @@
+body,td,table,input,select,textarea { font-family: verdana; font-size: 11px;}
+table { background: #0000C0;}
+table.post { background: #FFFFFF;}
+table.msg_header { background: #8080FF;}
+td.msg_header { background: #8080FF;}
+td.msg_post { background: #C0C0FF;}
+td.msg_links { background: #FFFFFF;}
+td.msg_add_message { background: #FFFFFF;}
+a:link,a:active,a:visited { color : #000080; }
+a:hover		{ text-decoration: underline; color : #C00000; }
+

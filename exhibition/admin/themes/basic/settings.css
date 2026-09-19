@@ -1,0 +1,126 @@
+/* ============================= Settings page ====================================== */
+
+.divSettingsPage{		/*div wrapping the settings page (without sections)*/
+	
+}
+
+.divAllSettings{		/*div wrapping the settings (no sections)*/
+	
+}
+
+.divAllSettings input,.divAllSettings select{
+	border:1px solid #7F9DB9;
+}
+
+.divAllSettings input.inputCheckbox{			/* all checkbox inputs */
+	border-width:0px;
+}
+
+.tableSettings{
+	
+}
+
+.tableSettings tr td{
+	padding-bottom:10px;
+}
+
+.tableSettings tr td.cellText{
+	vertical-align:top;
+	text-align:right;
+	width:300px;
+}
+
+.tableSettings tr.disabled td{
+	color:#919191;
+}
+
+.tableSettings .inputColorPicker{
+	
+}
+
+.tableSettings textarea{
+	width:200px;
+	height:120px;
+}
+
+.divSection{
+}
+
+.divSap{
+}
+
+.divSapControl{		/*the separater control (the accordion caption item) */
+	font-weight:bold;
+	background-color:#DADADA;
+	height:25px;
+	padding-left:5px;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.divSapControl .divSapControlText{
+	display:block;	
+	padding-top:4px;
+	font-size:16px;
+}
+
+/* ============================= Common Elements ====================================== */ 
+
+
+.normalButton{		/* button used in settings */
+}
+
+.confirmText{
+	color:green;
+}
+
+.errorText{
+	color:red;
+}
+
+
+/* ====================== Sections menu ================================== */
+
+.cellSections{
+	width:230px;
+	text-align:left;
+}
+
+ul.listSections{
+	list-style:none;
+	margin:0px;
+	padding:0px;	
+}
+
+ul.listSections li{
+	cursor:pointer;
+	display:block;
+	text-align:left;
+	xheight:34px;	
+	border-bottom:1px solid #ffffff;
+	width:200px;
+}
+
+ul.listSections li a{
+	text-decoration:none;
+	display:block;
+	color:#ffffff;
+	background-color:#4D4D4D;
+	height:34px;
+	width:200px;
+	padding-left:8px;
+	padding-right:4px;
+	padding-top:8px;
+}
+
+ul.listSections li a:hover{
+	background-color:#686868;
+}
+
+ul.listSections li.selected a{
+	background-color:#686868;
+}
+
+ul.listSections li.over{
+	background-color:red;
+}
